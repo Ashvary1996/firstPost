@@ -129,49 +129,49 @@ function navbar()
             <div id="section" class="tabcontent" style="display: block;">
                 <ul class="menu-list">
                     <li class="hamburger-events">
-                        <a href="">Home</a>
+                        <a href="home.html">Home</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Health</a>
+                        <a href="india.html">Health</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">India</a>
+                        <a href="india.html">India</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">World</a>
+                        <a href="world.html">World</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Politics</a>
+                        <a href="politics.html">Politics</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Arts & Culture</a>
+                        <a href="entertainment.html">Arts & Culture</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Auto</a>
+                        <a href="auto.html">Auto</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Opinion</a>
+                        <a href="opinion.html">Opinion</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Sports</a>
+                        <a href="sports.html">Sports</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Cricket</a>
+                        <a href="cricket.html">Cricket</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Entertainment</a>
+                        <a href="entertainment.html">Entertainment</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Tech</a>
+                        <a href="home.html">Tech</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Photos</a>
+                        <a href="#">Photos</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Videos</a>
+                        <a href="#">Videos</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="">Business</a>
+                        <a href="#">Business</a>
                     </li>
                 </ul>
             </div>
@@ -220,27 +220,27 @@ function navbar()
                     </div>
                 </div>
                 <div class="logo">
-                    <a href="">
+                    <a href="home.html">
                         <img width="157" height="45" src="https://www.firstpost.com/static/images/fp-desk-logo.png"
                             alt="">
                     </a>
                 </div>
                 <div class="social-div">
-                    <a href="">
+                    <a href="home.html">
                         <img style="border-radius: 50%;" height="26"
                             src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" alt="">
                     </a>
-                    <a href="">
+                    <a href="home.html">
                         <img style="border-radius: 50%;" height="33"
                             src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
                             alt="">
                     </a>
-                    <a href="">
+                    <a href="home.html">
                         <img style="border-radius: 50%;" height="26"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
                             alt="">
                     </a>
-                    <a href="">
+                    <a href="home.html">
                         <img style="border-radius: 50%;" height="26"
                             src="https://i.pinimg.com/originals/6a/42/04/6a4204f04496559aa27101d25983d0f0.png" alt="">
                     </a>
@@ -261,44 +261,44 @@ function navbar()
             <div class="menu-wrap container">
                 <ul class="main-menu">
                     <li class="nav-events">
-                        <a href="" title="Health">Health</a>
+                        <a href="home.html" title="Health">Health</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="India">India</a>
+                        <a href="india.html" title="India">India</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="World">World</a>
+                        <a href="world.html" title="World">World</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="Politics">Politics</a>
+                        <a href="politics.html" title="Politics">Politics</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="Auto">Auto</a>
+                        <a href="auto.html" title="Auto">Auto</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="Opinion">Opinion</a>
+                        <a href="opinion.html" title="Opinion">Opinion</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="Sports">Sports</a>
+                        <a href="sports.html" title="Sports">Sports</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="Cricket">Cricket</a>
+                        <a href="cricket.html" title="Cricket">Cricket</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="Entertainment">Entertainment</a>
+                        <a href="entertainment.html" title="Entertainment">Entertainment</a>
                     </li>
                     <li class="nav-events">
-                        <a href="" title="Tech">Tech</a>
+                        <a href="home.html" title="Tech">Tech</a>
                     </li>
                 </ul>
                 <ul class="sub-menu">
                     <li class="nav-events">
-                        <a href="" class="total">
+                        <a href="https://www.firstpost.com/tag/cryptocurrency" class="total">
                             <strong>Crypto</strong>
                         </a>
                     </li>
                     <li class="hdfc-events">
-                        <a href="">
+                        <a href="https://www.news18.com/netrasuraksha/">
                             <img width="103" height="25"
                                 src="https://www.firstpost.com/static/images/netrasuraksha_L2_103x25px.jpg" alt="">
                         </a>

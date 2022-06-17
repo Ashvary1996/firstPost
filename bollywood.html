@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment</title>
+</head>
+<link rel="stylesheet" href="style\bollywo.css">
+
+<link rel="stylesheet" href="./navbar.css">
+<link rel="icon" type="image/x-icon" href="https://www.firstpost.com/static/images/favicon.ico?v=6.75">
+<script src="https://kit.fontawesome.com/c7bc59b759.js" crossorigin="anonymous"></script>
+<body>
+    <div>
+        <div id="navbar"></div>
+    </div>
+
+    <div id="entertainmainpage">
+
+        <div id="entertain_bar">
+            <div id="enterMain">
+                <div id="buzz"> Buzz Patrol</div>
+                <hr>
+    
+                <div id="bolly">Bollywood</div>
+                <hr>
+                <div>Hollywood</div>
+                <hr>
+                <div>South Indian Movies</div>
+                <hr>
+                <div>Box Office</div>
+                <hr>
+                <div>Photos</div>
+                <hr>
+                <div>Videos</div>
+                <hr>
+                <div>Movies Review</div>
+               
+    
+            </div>
+    
+        </div>
+        
+        <div id="advertisement1">
+            <a href="https://www.cnbctv18.com/cryptocurrency/">
+                <img src="https://tpc.googlesyndication.com/simgad/3653571246857514174" alt="">
+             </a>
+        </div>
+
+
+        <div id="latestVSentertain">
+            
+            <a href="home.html"><h5 id="lat">latest  ></h5></a>
+             
+            <a href="entertainment.html"><h5 id="enter">entertainment </h5></a>
+           
+        </div>
+
+        <div id="news_adver">
+            <div id="enterstaticflex">
+                <h2>Entertainment</h2>
+                <div id="horline">
+                  <b><hr></b>
+                </div>
+
+                <!-- main news fetch part start -->
+
+                <div id="mainnewsdata">
+
+                </div>
+            </div>
+            <!-- news advertisement -->
+            <div id="enteradver">
+                <a href="https://www.ikaigai.com/">
+                    <img src="https://tpc.googlesyndication.com/simgad/3965680396601358591" alt="">
+                </a>
+
+                <div id="subscrib">
+                    <h2>Subscribe to our foreign policy newsletter</h2>
+                    <b><p>Sign up for a weekly curated briefing of the most important strategic affairs stories from across the world.</p></b>
+                    <label for="">Email Address</label>
+                    <br>
+                    <br>
+                    <input type="email" placeholder="enter Email for subscription">
+                    <br><br>
+                    <button>Submit</button>
+                </div>
+
+               <div id="mostre">
+               <h3>Most Read</h3>
+                <div id="orange"></div>
+               </div>
+                
+
+                <div id="musaread">
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="footer"></div>
+
+    
+   
+   
+    
+</body>
+</html>
+
+<script src="script\bollywood.js"></script>
+
+<script type="module">
+
+    import {navbar,footer} from './components/navbar.js'
+
+    document.getElementById('navbar').innerHTML = navbar();
+    document.getElementById('footer').innerHTML = footer();
+
+</script>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+</script>
