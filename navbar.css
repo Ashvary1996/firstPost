@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+    margin-bottom: 30px;
+}
+
+header {
+    background: #000;
+    padding: 2px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+}
+
+header .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .sidenav-menu-btn {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    cursor: pointer;
+}
+
+header .sidenav-menu-btn span {
+    width: 22px;
+    height: 2px;
+    margin-bottom: 3px;
+    background: #fff;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    color: #000;
+}
+
+img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 280px;
+}
+
+.social-div {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #999;
+    padding: 0 30px 0 0;
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    bottom: 5px;
+}
+
+.social-div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.search-box {
+    display: flex;
+    position: absolute;
+    right: 42px;
+    left: 180px;
+}
+
+.box {
+    max-width: 400px;
+    width: 100%;
+}
+
+.box .search-box {
+    position: relative;
+    height: 50px;
+    max-width: 45.5px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+#check:checked~.search-box {
+    max-width: 380px;
+}
+
+.search-box input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.search-box .icon {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 50px;
+    background: black;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+#check:checked~.search-box .icon {
+    background: #fff;
+    color: black;
+    width: 60px;
+    border-radius: 0 25px 25px 0;
+}
+
+#check {
+    display: none;
+}
+
+.main-menu-wrap {
+    box-shadow: 0 3px 6px 0 #d6d6d6;
+    background: #fff;
+}
+
+.main-menu-wrap .main-menu a {
+    border-left: #C4C4C4 solid 1px;
+}
+
+.main-menu-wrap .menu-wrap {
+    display: flex;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.main-menu-wrap .main-menu {
+    margin-right: 15px;
+    border-right: #9F9F9F solid 1px;
+}
+
+.main-menu-wrap .main-menu,
+.main-menu-wrap .sub-menu {
+    display: flex;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.main-menu-wrap .main-menu li,
+.main-menu-wrap .sub-menu li {
+    padding: 8px 0 6px;
+    border-bottom: transparent solid 2px;
+}
+
+.main-menu-wrap .main-menu li:first-child a,
+.main-menu-wrap .sub-menu li:first-child a {
+    padding-left: 0;
+    border-left: none;
+}
+
+.main-menu-wrap .main-menu a,
+.main-menu-wrap .sub-menu a {
+    font: 400 12px/15px Arial;
+    padding: 0 14px;
+}
+
+.total {
+    background-color: #005498;
+    color: #fff;
+    padding: 3px 4px 1px !important;
+    margin: 0 15px;
+}
+
+.main-menu-wrap .sub-menu li.hdfc-events,
+.main-menu-wrap .sub-menu li.hdfc-events a {
+    padding: 0;
+    margin-left: 10px;
+}
+
+/* Footer CSS */
+.footer {
+    border-top: #585858 solid 6px;
+    padding: 10px 0 0;
+}
+
+.footer .footer-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-share {
+    display: flex;
+    padding-right: 6px;
+}
+
+.footer .horizontal-share li {
+    padding: 0 5px;
+}
+
+.sc-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.footer-link-wrap {
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    border-top: #ddd solid 1px;
+    border-bottom: #ddd solid 1px;
+}
+
+.footer-link-wrap .footer-column {
+    flex: 1;
+    border-right: #ddd solid 1px;
+    padding: 0 8px 15px;
+}
+
+.footer-link-wrap .footer-heading {
+    font: 800 13px/18px Arial;
+    letter-spacing: 0;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+
+.footer-link-wrap .footer-links a {
+    font: 400 12px/22px Arial;
+    letter-spacing: 0;
+    color: #333;
+}
+
+.other-sites {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: #ddd solid 1px;
+    margin-bottom: 10px;
+}
+
+.company-name {
+    display: flex;
+    align-items: center;
+    font: 800 13px/18px Arial;
+    letter-spacing: 0;
+    color: #333;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.company-name svg {
+    width: 18px;
+    margin-left: 5px;
+    fill: #999;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+.other-sites-links {
+    display: flex;
+}
+
+.other-sites-links li {
+    padding: 0 8px;
+}
+
+.other-sites-links li a {
+    font: 400 12px/22px Arial;
+    letter-spacing: .24px;
+    color: #333;
+}
+
+.copywrite {
+    display: flex;
+    justify-content: center;
+    font: 400 12px/22px Arial;
+    letter-spacing: 0;
+    color: #333;
+}
+
+.tnc-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 10px;
+}
+
+.tnc-links li {
+    padding: 0 5px;
+    border-right: #ccc solid 1px;
+}
+
+.tnc-links li a {
+    font: 700 12px/22px Arial;
+    letter-spacing: 0;
+    color: #000;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999999999999;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: all 0.4s ease;
+    padding-top: 1px;
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav a {
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    right: 5px;
+    font-size: 36px;
+    width: 16px;
+    height: 26px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.close-sidenav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.close-sidenav a {
+    width: 24px;
+    height: 24px;
+}
+
+.sidenav ::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidenav ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+}
+
+.sidenav ::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+
+
+
+
+.tab-container {
+    display: flex;
+}
+
+#mySidenav .tab {
+    height: 100%;
+}
+
+.tab {
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+#mySidenav .tablinks {
+    border-bottom: #ccc solid 2px;
+    text-align: center;
+    font: 600 10px/10px Arial;
+    letter-spacing: 0;
+    color: #585858;
+    opacity: 1;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.tablinks.active {
+    background-color: #fff;
+}
+
+.tablinks {
+    display: block;
+    background-color: inherit;
+    color: #000;
+    padding: 13px 10px;
+    border: none;
+    outline: 0;
+    text-align: left;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 17px;
+}
+
+#mySidenav .tablinks a i {
+    fill: #B9B9B9;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 6px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 0;
+    width: 70%;
+    border-left: none;
+}
+
+.menu-list,
+.menu-list li {
+    display: block;
+}
+
+.menu-list li a {
+    display: block;
+    padding: 7px 10px 7px 30px;
+    font: 700 14px/24px Arial;
+    color: #000;
+    border-bottom: #B9B9B9 solid 1px;
+}
+
+#mySidenav .horizontal-share {
+    display: flex;
+    margin: 10px 0;
+}
+
+.horizontal-share {
+    display: flex;
+    padding-right: 6px;
+}
+
+#mySidenav .horizontal-share li {
+    margin: 0 5px;
+}
+
+
+#mySidenav .tab-container {
+    border-top: #B9B9B9 solid 1px;
+    border-bottom: #B9B9B9 solid 1px;
+    flex-grow: 1;
+}
