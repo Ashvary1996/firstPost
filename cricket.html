@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="./style_sports/sports.css">
+    <link rel="stylesheet" href="./style_sports/cricket.css">
+    <link rel="stylesheet" href="./navbar.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div id="sports_navbar">
+    </div>
+    <div id="ad_sports">
+        <img src="https://tpc.googlesyndication.com/simgad/3653571246857514174" alt="">
+    </div>
+    <div id="scoreboard">
+        <!-- 11111111111111111111111111111111111111111111111111111111111111111111 -->
+        <div>
+            <div class="upper">
+                <p>Sri Lanka vs Australia</p>
+                <p class="result">Results</p>
+            </div>
+            <div>
+                <img src="https://xmlns.cricketnext.com/cktnxt/scorecard/crk_player_images/flags/90x50/8.png">
+                <p class="team_code">SL</p>
+                <p>220/9 (47.4 OV)</p>
+            </div>
+            <div>
+                <img src="https://xmlns.cricketnext.com/cktnxt/scorecard/crk_player_images/flags/90x50/1.png">
+                <p class="team_code">AUS</p>
+                <p>189/9 (37.1 OV)</p>
+            </div>
+            <div>
+                <p>Sri Lanka beat Australia by 26 runs (D/L method)</p>
+            </div>
+
+        </div>
+        <!-- //22222222222222222222222222222222222222222222 -->
+
+
+
+        <div>
+            <div class="upper">
+                <p>India Vs South Africa</p>
+                <p class="result">Results</p>
+            </div>
+            <div>
+                <img src="https://xmlns.cricketnext.com/cktnxt/scorecard/crk_player_images/flags/90x50/4.png">
+                <p class="team_code">IND</p>
+                <p>171/5 (20 OV)</p>
+            </div>
+            <div>
+                <img src="https://xmlns.cricketnext.com/cktnxt/scorecard/crk_player_images/flags/90x50/7.png">
+                <p class="team_code">SA</p>
+                <p>131 (19.1 OV)</p>
+            </div>
+            <div>
+                <p>india beat south Africa by 28 runs (D/L method)</p>
+            </div>
+
+        </div>
+
+
+        <!-- 333333333333333333333333333333333333333333333333333333333333333333 -->
+
+
+        <div>
+            <div class="upper">
+                <p>West Indies Vs Bangladesh</p>
+                <p class="result">Results</p>
+            </div>
+            <div>
+                <img src="https://xmlns.cricketnext.com/cktnxt/scorecard/crk_player_images/flags/90x50/8.png">
+                <p class="team_code">SL</p>
+                <p>220/9 (47.4 OV)</p>
+            </div>
+            <div>
+                <img src="https://xmlns.cricketnext.com/cktnxt/scorecard/crk_player_images/flags/90x50/8.png">
+                <p class="team_code">SL</p>
+                <p>220/9 (47.4 OV)</p>
+            </div>
+            <div>
+                <p>Sri Lanka beat Australia by 26 runs (D/L method)</p>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <div id="sports_page_containt">
+        <div id="left_sports_news">
+            <h1>
+                <a> Cricket news</a>
+                <span>
+
+                </span>
+            </h1>
+        </div>
+        <div id="right_sports_news">
+
+        </div>
+    </div>
+<div id="footer"></div>
+
+</body>
+
+</html>
+<script src="./script_sports/cricket.js" type="module"></script>
+<script type="module">
+
+    import {navbar,footer} from './components/navbar.js'
+
+    document.getElementById('navbar').innerHTML = navbar();
+    document.getElementById('footer').innerHTML = footer();
+
+</script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+</script>

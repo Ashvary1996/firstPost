@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="./style_sports/sports.css">
+    <link rel="stylesheet" href="./navbar.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div id="sports_navbar">
+       
+    </div>
+    <div id="ad_sports">
+        <img src="https://tpc.googlesyndication.com/simgad/3653571246857514174" alt="">
+    </div>
+
+    <div id="sports_page_containt">
+        <div id="left_sports_news">
+            <h1>
+                <a> Sports news</a>
+                <span>
+
+                </span>
+            </h1>
+        </div>
+        <div id="right_sports_news">
+            
+        </div>
+    </div>
+<div id="footer"></div>
+
+</body>
+
+</html>
+<script src="./script_sports/sports.js" type="module"></script>
+<script type="module">
+
+    import {navbar,footer} from './components/navbar.js'
+
+    document.getElementById('navbar').innerHTML = navbar();
+    document.getElementById('footer').innerHTML = footer();
+
+</script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+</script>
