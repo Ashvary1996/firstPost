@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./india.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="icon" type="image/x-icon" href="https://www.firstpost.com/static/images/favicon.ico?v=6.75">
+    <script src="https://kit.fontawesome.com/c7bc59b759.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div id="navbar">
+
+    </div>
  
     <div id="main">
         <div id="news_result">
@@ -17,6 +23,29 @@
 
         </div>
     </div>
+
+    <div id="footer">
+
+    </div>
 </body>
 </html>
 <script src="./india.js" type="module"></script>
+
+<script type="module">
+
+    import {navbar,footer} from './components/navbar.js'
+
+    document.getElementById('navbar').innerHTML = navbar();
+    document.getElementById('footer').innerHTML = footer();
+
+</script>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+</script>
