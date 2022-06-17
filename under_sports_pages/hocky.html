@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hocky</title>
+    <link rel="stylesheet" href="../style_sports/sports.css">
+    <link rel="stylesheet" href="../navbar.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="sports_navbar">
+       
+    </div>
+    <div id="ad_sports">
+        <img src="https://tpc.googlesyndication.com/simgad/3653571246857514174" alt="">
+    </div>
+
+    <div id="sports_page_containt">
+        <div id="left_sports_news">
+            <h1>
+                <a> Hocky news</a>
+                <span>
+
+                </span>
+            </h1>
+        </div>
+        <div id="right_sports_news">
+            
+        </div>
+    </div>
+<div id="footer"></div>
+</body>
+</html>
+<script type="module">
+    import {navbar,footer} from '../components/navbar.js'
+
+document.getElementById('navbar').innerHTML = navbar();
+document.getElementById('footer').innerHTML = footer();
+    import { showdata, append ,date} from "../sports_components/sports_fetching.js"
+
+const key = `d5509407951145e8bd64b0aaf9ca0cee`
+
+let sports_qury = 'top%sports'
+
+let sports_url = `https://newsapi.org/v2/everything?q=${sports_qury}&from=${date()}&language=en&apiKey=${key}`
+
+let data = await showdata(sports_url);
+
+let showcase = document.getElementById("left_sports_news");
+
+append(data, showcase);
+
+
+import sp_nav from "../sports_components/sp_navbar.js";
+document.getElementById("sports_navbar").innerHTML=sp_nav;
+
+import append_side from "../sports_components/sidenews_topclass.js";
+document.getElementById("right_sports_news").innerHTML=append_side;
+
+
+
+</script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+</script>

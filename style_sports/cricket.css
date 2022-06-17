@@ -1,0 +1,37 @@
+#scoreboard{
+    width: 70%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+margin-bottom: 30px;
+    gap: 10px;
+}
+#scoreboard>div{
+    width: 30%;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#scoreboard>div>div{
+    display: flex;
+    /* border: 1px solid red; */
+    border-left: 4px solid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#scoreboard>div>div img{
+    width: 40px;
+    height: 25px;
+}
+.team_code{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.result{
+    background-color: rgb(112, 112, 112);
+    padding: 5px;
+}
+.upper{
+    padding: 5px;
+    border-bottom: 1px solid lightgrey;
+}
