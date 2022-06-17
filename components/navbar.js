@@ -369,34 +369,34 @@ function footer()
                     <p class="footer-heading">Section</p>
                     <ul class="footer-links">
                         <li>
-                            <a href="">Front Page</a>
+                            <a href="home.html">Front Page</a>
                         </li>
                         <li>
-                            <a href="">Politics</a>
+                            <a href="politics">Politics</a>
                         </li>
                         <li>
-                            <a href="">Sports</a>
+                            <a href="sports.html">Sports</a>
                         </li>
                         <li>
-                            <a href="">India</a>
+                            <a href="india.html">India</a>
                         </li>
                         <li>
-                            <a href="">World</a>
+                            <a href="world.html">World</a>
                         </li>
                         <li>
                             <a href="">Business</a>
                         </li>
                         <li>
-                            <a href="">Entertainment News</a>
+                            <a href="entertainment.html">Entertainment News</a>
                         </li>
                         <li>
-                            <a href="">Cricket</a>
+                            <a href="cricket.html">Cricket</a>
                         </li>
                         <li>
-                            <a href="">Tech</a>
+                            <a href="home.html">Tech</a>
                         </li>
                         <li>
-                            <a href="">Health</a>
+                            <a href="home.html">Health</a>
                         </li>
                         <li>
                             <a href="">Photos</a>
@@ -408,7 +408,7 @@ function footer()
                             <a href="">Press Release</a>
                         </li>
                         <li>
-                            <a href="">Firstculture</a>
+                            <a href="entertainment.html">Firstculture</a>
                         </li>
                         <li>
                             <a href="">Long Reads</a>
