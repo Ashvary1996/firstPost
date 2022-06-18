@@ -13,13 +13,14 @@
 #enterMain{
     display: flex;
     width: 80%;
-    
-    margin: auto;
+    margin-top: -29px;
+    margin-left: 10%;
+    /* margin: auto; */
     /* border: 1px solid red; */
     cursor: pointer;
-    margin-top:5px ;
+    /* margin-top:5px ; */
     
-    justify-content: space-evenly;
+    justify-content: space-around;
    
 }
 

@@ -129,7 +129,7 @@ function navbar()
             <div id="section" class="tabcontent" style="display: block;">
                 <ul class="menu-list">
                     <li class="hamburger-events">
-                        <a href="home.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="hamburger-events">
                         <a href="india.html">Health</a>
@@ -162,7 +162,7 @@ function navbar()
                         <a href="entertainment.html">Entertainment</a>
                     </li>
                     <li class="hamburger-events">
-                        <a href="home.html">Tech</a>
+                        <a href="index.html">Tech</a>
                     </li>
                     <li class="hamburger-events">
                         <a href="#">Photos</a>
@@ -220,27 +220,27 @@ function navbar()
                     </div>
                 </div>
                 <div class="logo">
-                    <a href="home.html">
+                    <a href="index.html">
                         <img width="157" height="45" src="https://www.firstpost.com/static/images/fp-desk-logo.png"
                             alt="">
                     </a>
                 </div>
                 <div class="social-div">
-                    <a href="home.html">
+                    <a href="index.html">
                         <img style="border-radius: 50%;" height="26"
                             src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" alt="">
                     </a>
-                    <a href="home.html">
+                    <a href="index.html">
                         <img style="border-radius: 50%;" height="33"
                             src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
                             alt="">
                     </a>
-                    <a href="home.html">
+                    <a href="index.html">
                         <img style="border-radius: 50%;" height="26"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
                             alt="">
                     </a>
-                    <a href="home.html">
+                    <a href="index.html">
                         <img style="border-radius: 50%;" height="26"
                             src="https://i.pinimg.com/originals/6a/42/04/6a4204f04496559aa27101d25983d0f0.png" alt="">
                     </a>
@@ -261,7 +261,7 @@ function navbar()
             <div class="menu-wrap container">
                 <ul class="main-menu">
                     <li class="nav-events">
-                        <a href="home.html" title="Health">Health</a>
+                        <a href="index.html" title="Health">Health</a>
                     </li>
                     <li class="nav-events">
                         <a href="india.html" title="India">India</a>
@@ -276,7 +276,7 @@ function navbar()
                         <a href="auto.html" title="Auto">Auto</a>
                     </li>
                     <li class="nav-events">
-                        <a href="opinion.html" title="Opinion">Opinion</a>
+                        <a href="opnion.html" title="Opinion">Opinion</a>
                     </li>
                     <li class="nav-events">
                         <a href="sports.html" title="Sports">Sports</a>
@@ -288,7 +288,7 @@ function navbar()
                         <a href="entertainment.html" title="Entertainment">Entertainment</a>
                     </li>
                     <li class="nav-events">
-                        <a href="home.html" title="Tech">Tech</a>
+                        <a href="index.html" title="Tech">Tech</a>
                     </li>
                 </ul>
                 <ul class="sub-menu">
@@ -369,7 +369,7 @@ function footer()
                     <p class="footer-heading">Section</p>
                     <ul class="footer-links">
                         <li>
-                            <a href="home.html">Front Page</a>
+                            <a href="index.html">Front Page</a>
                         </li>
                         <li>
                             <a href="politics">Politics</a>
@@ -393,10 +393,10 @@ function footer()
                             <a href="cricket.html">Cricket</a>
                         </li>
                         <li>
-                            <a href="home.html">Tech</a>
+                            <a href="index.html">Tech</a>
                         </li>
                         <li>
-                            <a href="home.html">Health</a>
+                            <a href="index.html">Health</a>
                         </li>
                         <li>
                             <a href="">Photos</a>
