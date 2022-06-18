@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polictics</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="icon" type="image/x-icon" href="https://www.firstpost.com/static/images/favicon.ico?v=6.75">
+    <script src="https://kit.fontawesome.com/c7bc59b759.js" crossorigin="anonymous"></script>
+</head>
+<link rel="stylesheet" href="politics.css">
+
+<body>
+    <div id="navbar">
+
+    </div>
+
+    <h1 class="politic_heading">POLICTICS NEWS</h1>
+    <hr class="politic_line"> <span class="politic_span">
+        <hr>
+    </span>
+
+    <div id="politic_main_div">
+        <div id="politic_cont"></div>
+        <div id="right_div">
+            <div id="politic_subscribe">
+                <h3>Subscribe to our foreign policy newsletter</h3>
+                <p>Sign up for a weekly curated briefing of the most important strategic affairs stories from across the
+                    world.</p>
+                <p>Email Address</p>
+                <input type="text">
+                <br>
+                <button>Submit</button>
+            </div>
+            <h3 class="mostread">MOST READ</h3><span class="hr">
+                <hr>
+            </span>
+            <div class="right_content">
+                <h1 class="head">1</h1>
+                <h3>
+                    India records 12,213 COVID cases in 24 hours, crosses 10K mark for first time since late
+                    February
+                </h3>
+                <p>
+                    The Ministry of Health and Family Welfare (MoHFW) informed that 11 people died of coronavirus in the
+                    last 24 hours, increasing total casualties to 5,24,803</p>
+            </div>
+            <div class="right_content">
+                <h1 class="head">2</h1>
+                <h3>
+                    Delhi: Overnight rains leave city water-logged, more thundershowers predicted for this evening
+                </h3>
+                <p>
+
+                    The minimum temperature on Thursday was recorded at 23.8 degrees Celsius, four notches below the
+                    season's average. The maximum temperature today is likely to be around 39 degrees Celsius</p>
+            </div>
+            <div class="right_content">
+                <h1 class="head">3</h1>
+                <h3>
+                    Southwest monsoon likely to advance into Gangetic West Bengal by tomorrow
+                </h3>
+                <p>
+
+                    IMD predicts thunderstorms in some areas of Kolkata on Thursday with day temperature likely to hover
+                    around 33 degrees Celsius.</p>
+            </div>
+            <div class="right_content">
+                <h1 class="head">4</h1>
+                <h3>
+                    Southwest monsoon likely to advance into Gangetic West Bengal by tomorrow
+                </h3>
+                <p>
+
+                    IMD predicts thunderstorms in some areas of Kolkata on Thursday with day temperature likely to hover
+                    around 33 degrees Celsius.</p>
+            </div>
+            <div class="right_content">
+                <h1 class="head">5</h1>
+                <h3>
+                    Southwest monsoon likely to advance into Gangetic West Bengal by tomorrow
+                </h3>
+                <p>
+
+                    IMD predicts thunderstorms in some areas of Kolkata on Thursday with day temperature likely to hover
+                    around 33 degrees Celsius.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+
+
+</body>
+
+</html>
+
+<script src="politics.js"></script>
+
+<script type="module">
+
+    import { navbar, footer } from './components/navbar.js'
+
+    document.getElementById('navbar').innerHTML = navbar();
+    document.getElementById('footer').innerHTML = footer();
+
+</script>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>

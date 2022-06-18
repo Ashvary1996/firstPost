@@ -1,0 +1,166 @@
+
+/* HEADING PART CSS */
+.politic_heading{
+    text-align: center;
+    margin-bottom: -1px;
+}
+
+.politic_line{
+    position: absolute;
+    width: 100%;
+    color: black;
+}
+
+.politic_span{
+    display: inline-block;
+    width: 83px;
+    height: 6px;
+    background: #FAD65F;
+    margin: 0;
+    position: relative;
+    margin-left: 700px;
+    margin-top: -50px;
+
+}
+
+/* MAIN PART CSS */
+
+#politic_main_div{
+    width: 80%;
+    display: flex;
+    height: auto;
+    margin: auto;
+}
+
+/* INNER PART OF MAIN BODY CSS */
+
+#politic_cont{
+    width: 60%;
+    height: auto;
+
+}
+
+#right_div{
+    width: 25%;
+    height: auto; 
+    margin-left: 50px;
+}
+
+
+/* IMAGE PART CSS */
+#politic_img{
+   margin-left: 30px;
+   width: 640px;
+   height: 400px;
+}
+
+#politic_imgdiv{
+    width: 70%;
+    font: 200 24px/27px 'Playfair Display',sans-serif;
+    letter-spacing: 0;
+    color: #000;
+ 
+}
+
+/* HEADING AND DESCRIPTION DIV */
+
+#heading_div{
+    margin-left: 60px;
+    margin-right: 59px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    height: auto;
+    width: auto;
+    background: #fff;
+    padding: 10px; 
+    position: relative;
+   
+}
+
+#name_wali_id{
+    text-decoration: underline #FAD65F ;
+    color:#585858;
+    font: 400 14px/16px Arial;
+}
+
+/* RIGHT DIV CSS */
+.right_content{
+    border: 1px solid grey;
+}
+
+.hr{
+    display: inline-block;
+    width: 140px;
+    height: 6px;
+    background: #FAD65F;
+    margin-top: -80px;
+    position: relative;
+}
+
+.mostread{
+    margin-bottom: 2px;
+    font-style: italic;
+    font-size:x-large ;
+    font-family: 20px Arial, Helvetica, sans-serif;
+}
+
+.right_content>h3{
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.right_content>p{
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+.head{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    
+}
+
+#politic_subscribe{
+    border: 1px solid gray;
+}
+
+#politic_subscribe>h3{
+    margin-left: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#politic_subscribe>h3+p{
+    margin-left: 5px;
+}
+
+#politic_subscribe>h3+p+p{
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#politic_subscribe>h3+p+p+input{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+
+}
+
+#politic_subscribe>h3+p+p+input+br+button{
+    margin-left: 5px;
+    gap: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: #FAD65F;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+
+}
+
