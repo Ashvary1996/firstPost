@@ -76,12 +76,17 @@ a {
 #newsboxcontentup {
     width: 600px;
     margin: auto;
-    padding-left: 5.5px;
+    padding-left: 11.5px;
     height: 115px;
     position: relative;
     margin-top: -128px;
     margin-left: 20px;
+    font-size: 10px;
     background-color: rgb(251, 251, 251);
+}
+.fixh2 {
+   font-size: 18px;
+   width: 500px;
 }
 #newsboxcontent {
     width: 621px;
@@ -90,6 +95,7 @@ a {
     margin-top: -28px;
     margin-left: 20px;
     background-color: rgb(251, 251, 251);
+    padding-left: 11.5px;
 }
 
 * {
@@ -100,6 +106,7 @@ a {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-top: 10px;
 }
 
 /* Hide the images by default */
@@ -291,6 +298,7 @@ a {
     padding: 10px;
     gap: 10px;
     border-bottom: 1px solid grey;
+    margin-top: 10px;
 }
 
 #grey {
@@ -299,6 +307,7 @@ a {
     border-bottom: 5px solid #fad65f ;
     text-decoration:underline #fad65f !important;
     /* margin-bottom: -10px  ; */
+    margin-left: -10px;
 }
 #grey2 {
     color: rgb(103, 101, 101);
@@ -444,14 +453,16 @@ a {
 }
 
 .lsd {
-    width: 212px;
+    width: 205px;
     /* border: 2px solid green; */
     padding: 10px;
+    padding-left: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .lsd>a {
     text-decoration: none;
+    
 }
 
 .limg {
@@ -461,6 +472,7 @@ a {
 #lastdiv {
     display: flex;
     padding: 5px;
+    gap: 10px;
 }
 
 iframe {
@@ -610,4 +622,6 @@ a.slide__next,
     height: 30px;
     font-size: 15px;
     margin: auto;
+    margin-top: 50px;
+
 }
