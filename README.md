@@ -1,12 +1,19 @@
 This is a Construct Week project FirstPost Website Clone.
 
 Here are all team members and there work:
+<br/>
 Rishabh Srivastava - Created Navbar, Sidebar and Footer Section
+<br/>
 Ashvary Gidian - Home Page Section
+<br/>
 Yogesh Kumar Singh - India and World Page Section
+<br/>
 Vishal Mahale - Politics and Auto Page Section
+<br/>
 Prabhusagar Mohapatra - Cricket, Opinion and Sports Page Section
+<br/>
 Sudhirkumar Sanjay Shukla - Entertainment Page Section
+<br/>
 
 ## Feel free to get in touch with us for any review and suggestions
 
