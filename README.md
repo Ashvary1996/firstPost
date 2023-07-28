@@ -1,4 +1,4 @@
-This is a Construct Week project FirstPost Website Clone.
+This is a Group project FirstPost Website Clone.
 
 Here are all team members and there work:
 <br/>
